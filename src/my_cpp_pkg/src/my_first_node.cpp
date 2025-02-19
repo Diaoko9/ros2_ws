@@ -1,18 +1,30 @@
 #include "rclcpp/rclcpp.hpp"
 
-class my_first_node
+class MyCustomNode : public rclcpp::Node
 {
 private:
-    /* data */
+
+    int counter_;
+    rclcpp::TimerBase::SharedPtr timer_;
+    
 public:
-    my_first_node(/* args */);
-    ~my_first_node();
+    MyCustomNode() : Node("my_node_name"), counter_(0){
+        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&MyCustomNode::print_hello, this));
+    }
+
+    void print_hello(){
+        RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);
+        counter_ ++;
+    }
+
 };
 
-my_first_node::my_first_node(/* args */)
-{
-}
+int main (int argc, char **argv){
 
-my_first_node::~my_first_node()
-{
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<MyCustomNode>();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+
 }

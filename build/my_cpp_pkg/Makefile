@@ -197,6 +197,43 @@ my_cpp_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_cpp_pkg_uninstall.dir/build.make CMakeFiles/my_cpp_pkg_uninstall.dir/build
 .PHONY : my_cpp_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named test_node
+
+# Build rule for target.
+test_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_node
+.PHONY : test_node
+
+# fast build rule for target.
+test_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+.PHONY : test_node/fast
+
+src/my_first_node.o: src/my_first_node.cpp.o
+.PHONY : src/my_first_node.o
+
+# target to build an object file
+src/my_first_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/my_first_node.cpp.o
+.PHONY : src/my_first_node.cpp.o
+
+src/my_first_node.i: src/my_first_node.cpp.i
+.PHONY : src/my_first_node.i
+
+# target to preprocess a source file
+src/my_first_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/my_first_node.cpp.i
+.PHONY : src/my_first_node.cpp.i
+
+src/my_first_node.s: src/my_first_node.cpp.s
+.PHONY : src/my_first_node.s
+
+# target to generate assembly for a file
+src/my_first_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/my_first_node.cpp.s
+.PHONY : src/my_first_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... test_node"
+	@echo "... src/my_first_node.o"
+	@echo "... src/my_first_node.i"
+	@echo "... src/my_first_node.s"
 .PHONY : help
 
 
