@@ -1,0 +1,23 @@
+[0.329s] Invoking command in '/home/diaoko/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/diaoko/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/diaoko/ros2_ws/build/my_py_pkg/build install --record /home/diaoko/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.459s] running egg_info
+[0.460s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.460s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.460s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.460s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.460s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.461s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.462s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.462s] running build
+[0.462s] running build_py
+[0.462s] running install
+[0.462s] running install_lib
+[0.466s] running install_data
+[0.466s] running install_egg_info
+[0.466s] removing '/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.466s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.466s] running install_scripts
+[0.489s] Installing number_counter script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.489s] Installing number_publisher script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.489s] Installing test_node script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.489s] writing list of installed files to '/home/diaoko/ros2_ws/build/my_py_pkg/install.log'
+[0.506s] Invoked command in '/home/diaoko/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/diaoko/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/diaoko/ros2_ws/build/my_py_pkg/build install --record /home/diaoko/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
