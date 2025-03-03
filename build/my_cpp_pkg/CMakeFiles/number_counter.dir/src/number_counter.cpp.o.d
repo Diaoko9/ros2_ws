@@ -691,4 +691,10 @@ CMakeFiles/number_counter.dir/src/number_counter.cpp.o: \
  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/int64__builder.hpp \
  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/int64__traits.hpp \
  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/int64__type_support.hpp \
- /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__builder.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__traits.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.hpp \
+ /home/diaoko/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

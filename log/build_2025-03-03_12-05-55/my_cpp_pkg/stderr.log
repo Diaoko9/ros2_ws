@@ -1,0 +1,8 @@
+[01m[K/home/diaoko/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::[01;32m[KNumberCounterNode[m[K()[m[K’:
+[01m[K/home/diaoko/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_counter_service_[m[K’ was not declared in this scope; did you mean ‘[01m[Kreset_counter_servise_[m[K’?
+   16 |         [01;31m[Kreset_counter_service_[m[K = this->create_service<ResetCounter>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kreset_counter_servise_[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

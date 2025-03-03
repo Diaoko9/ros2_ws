@@ -8,7 +8,8 @@
       "includePath": [
         "/opt/ros/humble/include/**",
         "/home/diaoko/ros2_ws/src/my_cpp_pkg/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/home/diaoko/ros2_ws/install/my_robot_interfaces/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.040s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.259s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.288s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.297s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.463s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.542s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.610s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.611s]   ament_target_dependencies() the passed package name 'my_robot_interfaces'
+[0.611s]   was not found before
+[0.611s] Call Stack (most recent call first):
+[0.611s]   CMakeLists.txt:23 (ament_target_dependencies)
+[0.611s] 
+[0.611s] [0m
+[0.611s] -- Configuring incomplete, errors occurred!
+[0.616s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.618s] Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12

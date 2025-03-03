@@ -406,6 +406,9 @@ my_cpp_pkg_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 my_cpp_pkg_SOURCE_DIR:STATIC=/home/diaoko/ros2_ws/src/my_cpp_pkg
 
+//The directory containing a CMake configuration file for my_robot_interfaces.
+my_robot_interfaces_DIR:PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake
+
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 

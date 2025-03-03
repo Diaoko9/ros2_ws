@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.227s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.254s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.341s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.472s] -- Found my_robot_interfaces: 0.0.0 (/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.484s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.583s] -- Configured cppcheck include dirs: 
+[0.583s] -- Configured cppcheck exclude dirs and/or files: 
+[0.583s] -- Added test 'lint_cmake' to check CMake code style
+[0.584s] -- Added test 'uncrustify' to check C / C++ code style
+[0.584s] -- Configured uncrustify additional arguments: 
+[0.584s] -- Added test 'xmllint' to check XML markup files
+[0.585s] -- Configuring done (0.6s)
+[0.603s] -- Generating done (0.0s)
+[0.609s] -- Build files have been written to: /home/diaoko/ros2_ws/build/my_cpp_pkg
+[0.649s] [ 33%] Built target test_node
+[0.650s] [ 66%] Built target number_publisher
+[0.652s] [ 83%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.005s] [01m[K/home/diaoko/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::[01;32m[KNumberCounterNode[m[K()[m[K’:
+[2.005s] [01m[K/home/diaoko/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_counter_service_[m[K’ was not declared in this scope; did you mean ‘[01m[Kreset_counter_servise_[m[K’?
+[2.005s]    16 |         [01;31m[Kreset_counter_service_[m[K = this->create_service<ResetCounter>(
+[2.005s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.005s]       |         [32m[Kreset_counter_servise_[m[K
+[3.274s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[3.274s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/number_counter.dir/all] Error 2
+[3.275s] gmake: *** [Makefile:146: all] Error 2
+[3.276s] Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12

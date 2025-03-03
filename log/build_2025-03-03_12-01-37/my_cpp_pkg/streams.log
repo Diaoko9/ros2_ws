@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.067s] [ 62%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.067s] [ 62%] Built target number_publisher
+[0.067s] [ 62%] Built target test_node
+[0.071s] [ 87%] Built target reset_counter_client
+[0.281s] [01m[K/home/diaoko/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/srv/reset_counter.hpp: No such file or directory
+[0.281s]     3 | #include [01;31m[K"my_robot_interfaces/srv/reset_counter.hpp"[m[K
+[0.281s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.281s] compilation terminated.
+[0.291s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[0.292s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/number_counter.dir/all] Error 2
+[0.292s] gmake: *** [Makefile:146: all] Error 2
+[0.294s] Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
