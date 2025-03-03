@@ -1,6 +1,7 @@
 /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
 /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
 /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+/home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client
 /home/diaoko/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
 /home/diaoko/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
 /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh

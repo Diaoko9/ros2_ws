@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-fa8ef661b72ed8949b48.json",
+					"jsonFile" : "directory-.-3d1f2cbf2f95f454044b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -20,7 +20,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -39,7 +40,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -64,6 +66,13 @@
 					"id" : "number_publisher::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-number_publisher-74cfa7c52e601e10623c.json",
 					"name" : "number_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reset_counter_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reset_counter_client-1a27ec8d382464d709fb.json",
+					"name" : "reset_counter_client",
 					"projectIndex" : 0
 				},
 				{

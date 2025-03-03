@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.143s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.201s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.284s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.462s] -- Found my_robot_interfaces: 0.0.0 (/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.588s] -- Configuring done (0.6s)
+[0.613s] -- Generating done (0.0s)
+[0.623s] -- Build files have been written to: /home/diaoko/ros2_ws/build/my_cpp_pkg
+[0.663s] [ 25%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.663s] [ 37%] Built target number_publisher
+[0.664s] [ 62%] Built target reset_counter_client
+[0.664s] [ 87%] Built target test_node
+[5.605s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[5.804s] [100%] Built target number_counter
+[5.813s] Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[5.814s] Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diaoko/ros2_ws/build/my_cpp_pkg
+[5.819s] -- Install configuration: ""
+[5.819s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
+[5.819s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[5.819s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[5.822s] -- Set non-toolchain portion of runtime path of "/home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[5.822s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client
+[5.823s] -- Set non-toolchain portion of runtime path of "/home/diaoko/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client" to ""
+[5.823s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.823s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.823s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.823s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.823s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.823s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.824s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.824s] -- Up-to-date: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.824s] -- Installing: /home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.825s] Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diaoko/ros2_ws/build/my_cpp_pkg

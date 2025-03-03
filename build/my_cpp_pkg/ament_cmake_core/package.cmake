@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_cpp_pkg")
 set(my_cpp_pkg_VERSION "0.0.0")
-set(my_cpp_pkg_MAINTAINER "diaoko <diaoko@todo.todo>")
+set(my_cpp_pkg_MAINTAINER "ed <todo.todo@todo.com>")
 set(my_cpp_pkg_BUILD_DEPENDS "rclcpp" "example_interfaces" "my_robot_interfaces")
 set(my_cpp_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_cpp_pkg_BUILD_EXPORT_DEPENDS "rclcpp" "example_interfaces" "my_robot_interfaces")

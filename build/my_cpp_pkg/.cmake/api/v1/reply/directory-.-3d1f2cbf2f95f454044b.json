@@ -42,7 +42,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 46,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -232,7 +232,7 @@
 				"test_node"
 			],
 			"targetId" : "test_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 3,
+			"targetIndex" : 4,
 			"type" : "target"
 		},
 		{
@@ -241,7 +241,7 @@
 			"cxxModuleBmiTarget" : 
 			{
 				"id" : "test_node::@6890427a1f51a3e7e1df",
-				"index" : 3
+				"index" : 4
 			},
 			"destination" : "lib/my_cpp_pkg",
 			"type" : "cxxModuleBmi"
@@ -288,6 +288,29 @@
 			{
 				"id" : "number_counter::@6890427a1f51a3e7e1df",
 				"index" : 1
+			},
+			"destination" : "lib/my_cpp_pkg",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/my_cpp_pkg",
+			"paths" : 
+			[
+				"reset_counter_client"
+			],
+			"targetId" : "reset_counter_client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "reset_counter_client::@6890427a1f51a3e7e1df",
+				"index" : 3
 			},
 			"destination" : "lib/my_cpp_pkg",
 			"type" : "cxxModuleBmi"

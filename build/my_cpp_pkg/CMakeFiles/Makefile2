@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/diaoko/ros2_ws/build/my_cpp_pkg
 all: CMakeFiles/test_node.dir/all
 all: CMakeFiles/number_publisher.dir/all
 all: CMakeFiles/number_counter.dir/all
+all: CMakeFiles/reset_counter_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/my_cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/test_node.dir/clean
 clean: CMakeFiles/number_publisher.dir/clean
 clean: CMakeFiles/number_counter.dir/clean
+clean: CMakeFiles/reset_counter_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -139,7 +141,7 @@ CMakeFiles/my_cpp_pkg_uninstall.dir/clean:
 CMakeFiles/test_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/diaoko/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target test_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/diaoko/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target test_node"
 .PHONY : CMakeFiles/test_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,6 +211,32 @@ number_counter: CMakeFiles/number_counter.dir/rule
 CMakeFiles/number_counter.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/clean
 .PHONY : CMakeFiles/number_counter.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reset_counter_client.dir
+
+# All Build rule for target.
+CMakeFiles/reset_counter_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/diaoko/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target reset_counter_client"
+.PHONY : CMakeFiles/reset_counter_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reset_counter_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diaoko/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reset_counter_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diaoko/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/reset_counter_client.dir/rule
+
+# Convenience name for target.
+reset_counter_client: CMakeFiles/reset_counter_client.dir/rule
+.PHONY : reset_counter_client
+
+# clean rule for target.
+CMakeFiles/reset_counter_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/clean
+.PHONY : CMakeFiles/reset_counter_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

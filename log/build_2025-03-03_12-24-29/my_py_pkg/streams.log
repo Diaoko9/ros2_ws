@@ -1,0 +1,24 @@
+[0.991s] Invoking command in '/home/diaoko/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/diaoko/ros2_ws/build/my_py_pkg/build install --record /home/diaoko/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.238s] running egg_info
+[1.248s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.249s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.249s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.249s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.249s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.271s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.272s] running install
+[1.277s] running install_lib
+[1.288s] running install_data
+[1.288s] running install_egg_info
+[1.300s] removing '/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.300s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.301s] running install_scripts
+[1.378s] Installing number_counter script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.378s] Installing number_publisher script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.378s] Installing reset_counter_client script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.378s] Installing test_node script to /home/diaoko/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.378s] writing list of installed files to '/home/diaoko/ros2_ws/build/my_py_pkg/install.log'
+[1.400s] Invoked command in '/home/diaoko/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diaoko/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/diaoko/ros2_ws/build/my_py_pkg/build install --record /home/diaoko/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
