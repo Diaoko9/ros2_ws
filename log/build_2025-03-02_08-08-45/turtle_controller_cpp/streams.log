@@ -1,0 +1,56 @@
+[0.538s] Invoking command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/diaoko/ros2_ws/src/turtle_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/diaoko/ros2_ws/install/turtle_controller_cpp
+[0.621s] -- The C compiler identification is GNU 13.3.0
+[0.702s] -- The CXX compiler identification is GNU 13.3.0
+[0.723s] -- Detecting C compiler ABI info
+[0.830s] -- Detecting C compiler ABI info - done
+[0.847s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.847s] -- Detecting C compile features
+[0.848s] -- Detecting C compile features - done
+[0.860s] -- Detecting CXX compiler ABI info
+[0.990s] -- Detecting CXX compiler ABI info - done
+[1.007s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.008s] -- Detecting CXX compile features
+[1.009s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.215s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.355s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.415s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.438s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.640s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.785s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.963s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.025s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[2.245s] -- Configuring done (1.7s)
+[2.265s] -- Generating done (0.0s)
+[2.272s] -- Build files have been written to: /home/diaoko/ros2_ws/build/turtle_controller_cpp
+[2.287s] Invoked command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/diaoko/ros2_ws/src/turtle_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/diaoko/ros2_ws/install/turtle_controller_cpp
+[2.288s] Invoking command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/turtle_controller_cpp -- -j12 -l12
+[2.354s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[13.755s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[14.177s] [100%] Built target turtle_controller
+[14.194s] Invoked command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/turtle_controller_cpp -- -j12 -l12
+[14.196s] Invoking command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/turtle_controller_cpp
+[14.209s] -- Install configuration: ""
+[14.210s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/turtle_controller_cpp/turtle_controller
+[14.215s] -- Set non-toolchain portion of runtime path of "/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/turtle_controller_cpp/turtle_controller" to ""
+[14.215s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_controller_cpp
+[14.215s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_controller_cpp
+[14.216s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/environment/ament_prefix_path.sh
+[14.216s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/environment/ament_prefix_path.dsv
+[14.216s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/environment/path.sh
+[14.216s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/environment/path.dsv
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/local_setup.bash
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/local_setup.sh
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/local_setup.zsh
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/local_setup.dsv
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.dsv
+[14.217s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/ament_index/resource_index/packages/turtle_controller_cpp
+[14.218s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/cmake/turtle_controller_cppConfig.cmake
+[14.218s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/cmake/turtle_controller_cppConfig-version.cmake
+[14.218s] -- Installing: /home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.xml
+[14.220s] Invoked command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/turtle_controller_cpp

@@ -1,0 +1,10 @@
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/uninstall.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/turtle_controller_cpp_uninstall.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/turtle_controller.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/test.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/edit_cache.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/rebuild_cache.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/list_install_components.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/install.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/install/local.dir
+/home/diaoko/ros2_ws/build/turtle_controller_cpp/CMakeFiles/install/strip.dir

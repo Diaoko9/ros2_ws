@@ -1,0 +1,324 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77adf597bc20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77adf597b8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77adf597b8f0>>, mixin_verb=('build',))
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.160s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/diaoko/ros2_ws'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_controller' with type 'ros.ament_python' and name 'turtle_controller'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller_cpp) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_controller_cpp' with type 'ros.ament_cmake' and name 'turtle_controller_cpp'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diaoko/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diaoko/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/diaoko/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diaoko/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diaoko/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/diaoko/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diaoko/ros2_ws/build/turtle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diaoko/ros2_ws/install/turtle_controller', 'merge_install': False, 'path': '/home/diaoko/ros2_ws/src/turtle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diaoko/ros2_ws/build/turtle_controller_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diaoko/ros2_ws/install/turtle_controller_cpp', 'merge_install': False, 'path': '/home/diaoko/ros2_ws/src/turtle_controller_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diaoko/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diaoko/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/diaoko/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diaoko/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diaoko/ros2_ws/src/my_robot_interfaces'
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/diaoko/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/diaoko/ros2_ws/src/turtle_controller' with build type 'ament_python'
+[0.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.ps1'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.dsv'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.sh'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diaoko/ros2_ws/src/turtle_controller_cpp' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diaoko/ros2_ws/src/turtle_controller_cpp'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diaoko/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[0.582s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/diaoko/ros2_ws/src/my_py_pkg'
+[0.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/diaoko/ros2_ws/src/turtle_controller'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/turtle_controller_cpp -- -j12 -l12
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diaoko/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diaoko/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/my_robot_interfaces
+[0.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diaoko/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/my_robot_interfaces
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces' for CMake module files
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib'
+[0.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/bin'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[0.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/bin'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[0.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[0.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diaoko/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[0.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces' for CMake module files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces' for CMake config files
+[0.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib'
+[0.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/bin'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[0.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_robot_interfaces/bin'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diaoko/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[0.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/diaoko/ros2_ws/build/turtle_controller_cpp -- -j12 -l12
+[0.965s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diaoko/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[0.966s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diaoko/ros2_ws/src/my_cpp_pkg'
+[0.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/turtle_controller_cpp
+[0.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller_cpp)
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp' for CMake module files
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diaoko/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diaoko/ros2_ws/build/turtle_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/diaoko/ros2_ws/build/turtle_controller_cpp
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp' for CMake config files
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_cpp', 'cmake_prefix_path')
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/pkgconfig/turtle_controller_cpp.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/python3.12/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.bash'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.zsh'
+[0.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/colcon-core/packages/turtle_controller_cpp)
+[0.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller_cpp)
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp' for CMake module files
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp' for CMake config files
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_cpp', 'cmake_prefix_path')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/hook/cmake_prefix_path.sh'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/bin'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/pkgconfig/turtle_controller_cpp.pc'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/lib/python3.12/site-packages'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/turtle_controller_cpp/bin'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.sh'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/turtle_controller_cpp/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diaoko/ros2_ws/install/turtle_controller_cpp/share/colcon-core/packages/turtle_controller_cpp)
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diaoko/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diaoko/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diaoko/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[1.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg' for CMake module files
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg' for CMake config files
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg/lib'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg/bin'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg/lib/python3.12/site-packages'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/diaoko/ros2_ws/install/my_cpp_pkg/bin'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/diaoko/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diaoko/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[1.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.645s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.652s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.677s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diaoko/ros2_ws/install/local_setup.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diaoko/ros2_ws/install/_local_setup_util_ps1.py'
+[1.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diaoko/ros2_ws/install/setup.ps1'
+[1.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diaoko/ros2_ws/install/local_setup.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diaoko/ros2_ws/install/_local_setup_util_sh.py'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diaoko/ros2_ws/install/setup.sh'
+[1.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diaoko/ros2_ws/install/local_setup.bash'
+[1.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diaoko/ros2_ws/install/setup.bash'
+[1.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diaoko/ros2_ws/install/local_setup.zsh'
+[1.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diaoko/ros2_ws/install/setup.zsh'

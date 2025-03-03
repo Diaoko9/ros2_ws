@@ -9,6 +9,7 @@
 
   <depend>rclpy</depend>
   <depend>example_interface</depend>
+  <depend>my_robot_interface</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

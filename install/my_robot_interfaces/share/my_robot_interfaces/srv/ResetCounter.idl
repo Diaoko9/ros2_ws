@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/ResetCounter.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct ResetCounter_Request {
+      int64 reset_value;
+    };
+    struct ResetCounter_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

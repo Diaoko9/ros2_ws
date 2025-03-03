@@ -19,6 +19,7 @@ install (TARGETS
 	test_node
   number_publisher
   number_counter
+  reset_counter_client
 	DESTINATION lib/${PROJECT_NAME}/
 )
 

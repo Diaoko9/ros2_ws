@@ -1,1 +1,1 @@
-example_interface:rclpy
+example_interface:my_robot_interface:rclpy
