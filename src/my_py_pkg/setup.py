@@ -13,7 +13,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ed',
+    maintainer='diaoko',
     maintainer_email='todo.todo@todo.com',
     description='TODO: Package description',
     license='TODO: License declaration',
