@@ -14,7 +14,7 @@ public:
         number_subscriber_ = this->create_subscription<example_interfaces::msg::Int64>(
                 "number", 10, std::bind(&NumberCounterNode::callbackNumber, this, _1));
         reset_counter_service_ = this->create_service<ResetCounter>(
-                "reset_counter", std::bind(&NumberCounterNode::callbackResetCounter, this, _1, _2));    
+            "reset_counter", std::bind(&NumberCounterNode::callbackResetCounter, this, _1, _2));
         RCLCPP_INFO(this->get_logger(), "Number Counter has been started.");
     }
 
@@ -24,28 +24,29 @@ private:
         counter_ += msg->data;
         RCLCPP_INFO(this->get_logger(), "Counter: %d", counter_);
     }
+
     void callbackResetCounter(const ResetCounter::Request::SharedPtr request, 
-        const ResetCounter::Response::SharedPtr response)
+                              const ResetCounter::Response::SharedPtr response)
     {
-    if (request->reset_value < 0) {
-    response->success = false;
-    response->message = "Cannot reset counter to a negative value";
+        if (request->reset_value < 0) {
+            response->success = false;
+            response->message = "Cannot reset counter to a negative value";
         }
-    else if (request->reset_value > counter_) {
-    response->success = false;
-    response->message = "Reset value must be lower than current counter value";
+        else if (request->reset_value > counter_) {
+            response->success = false;
+            response->message = "Reset value must be lower than current counter value";
         }
-    else {
-    counter_ = request->reset_value;
-    RCLCPP_INFO(this->get_logger(), "Reset counter to %d", counter_);
-    response->success = true;
-    response->message = "Success";
+        else {
+            counter_ = request->reset_value;
+            RCLCPP_INFO(this->get_logger(), "Reset counter to %d", counter_);
+            response->success = true;
+            response->message = "Success";
         }
-}
+    }
 
     int counter_;
     rclcpp::Subscription<example_interfaces::msg::Int64>::SharedPtr number_subscriber_;
-    rclcpp::Service<ResetCounter>::SharedPtr reset_counter_servise_;
+    rclcpp::Service<ResetCounter>::SharedPtr reset_counter_service_;
 };
 
 int main(int argc, char **argv)

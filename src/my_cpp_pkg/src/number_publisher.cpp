@@ -25,12 +25,11 @@ private:
     rclcpp::TimerBase::SharedPtr number_timer_;
 };
 
-int main (int argc, char **argv){
-
+int main(int argc, char **argv)
+{
     rclcpp::init(argc, argv);
     auto node = std::make_shared<NumberPublisherNode>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
-
 }
